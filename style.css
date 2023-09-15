@@ -1,0 +1,34 @@
+body {
+    /* Creating a linear gradient background from left to right */
+    background: linear-gradient(to right, #f6d365, #fda085);
+    color: #333; /* Setting the text color to dark gray (#333) */
+}
+
+.container {
+    /* Styling the container div with a yellow border */
+    border: 2px solid #f6d365;
+    border-radius: 15px; /* Adding rounded corners to the container */
+    padding: 20px; /* Adding some padding inside the container */
+    background-color: white; /* Setting the container background to white */
+}
+
+div {
+    /* Styling all div elements with the 'Times New Roman' font or a fallback font */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-text {
+    /* Styling the elements with the 'top-text' class */
+    font-size: 42px; /* Setting the font size to 42 pixels */
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+footer {
+    /* Styling the footer element */
+    bottom: 0; /* Positioning the footer at the bottom of its container */
+    width: 100%; /* Making the footer span the full width of its container */
+    background-color: rgb(26, 28, 27); /* Setting the background color to a dark gray */
+    color: white; /* Setting the text color to white */
+    text-align: center; /* Centering the text inside the footer */
+}
